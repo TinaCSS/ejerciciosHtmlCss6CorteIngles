@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    max-width:100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.b-padre-header-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+.b-logo{
+    width: 30%;
+    padding: 3%;
+    margin: 0px 0px 0px 20%;
+}
+.b-hijo-header-top{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b-padre-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-hijo-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.b-padre-main-nav{
+    display: flex;
+    flex-direction: row;
+}
+.b-hijo-main-nav-box{
+    width: 100%;
+    background-color: green;
+    padding: 20px;
+    margin: calc(100%-20px);
+    justify-content: stretch;
+}
