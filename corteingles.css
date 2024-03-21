@@ -45,7 +45,7 @@ aside{
 .b-menu-menu{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .b-menu-menu-button{
     background-color: white;
@@ -56,7 +56,7 @@ aside{
     padding: 5px;
 }
 .b-menu-guide{
-    margin: 20px;
+    margin: 10px;
 }
 .b-menu-filter{
     display: flex;
@@ -64,7 +64,7 @@ aside{
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(211, 211, 211);
-    margin: 20px;
+    margin: 10px;
 }
 .b-menu-filter-button{
     background-color: rgb(67, 196, 67);
@@ -141,4 +141,28 @@ aside{
     padding: 5px;
     border: 2px solid green;
     padding: 0px 10px 0px 10px;
+}
+
+.b-banner-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+.b-banner-footer-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+}
+.b-nav-footer{
+    display: flex;
+    flex-direction: row;
+}
+.b-nav-footer-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
 }
