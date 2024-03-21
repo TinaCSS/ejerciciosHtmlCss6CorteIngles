@@ -1,5 +1,9 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 0px 50px;
+    color: black;
+    background-color: rgb(216, 216, 216);
 }
 img{
     max-width:100%;
@@ -9,12 +13,64 @@ ul{
 }
 a{
     text-decoration: none;
+    color: black;
 }
-.b-padre-header-top{
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+aside{
+    background-color: white;
+}
+.h1__precio{
+    font-size: 2rem;
+    margin: 0px;
+}
+.h2__name{
+    margin: 0px;
+}
+.b-header-left{
+    width: 50%;
+}
+.b-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}
+.b-menu-menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.b-menu-menu-button{
+    background-color: white;
+    padding: 20px;
+    border: white;
+    color: black;
+    margin: 0px;
+    padding: 5px;
+}
+.b-menu-guide{
+    margin: 20px;
+}
+.b-menu-filter{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     background-color: rgb(211, 211, 211);
+    margin: 20px;
+}
+.b-menu-filter-button{
+    background-color: rgb(67, 196, 67);
+    padding: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
 }
 .b-logo{
     width: 30%;
@@ -49,4 +105,40 @@ a{
     padding: 20px;
     margin: calc(100%-20px);
     justify-content: stretch;
+}
+.b-padre-gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.b-hijo-gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+.b-hijo-gallery-info {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.b-padre-gallery-item-cta {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: self-end;
+    justify-content: space-between;
+}
+
+.b-hijo-gallery-item-cta-right {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid green;
+    padding: 0px 10px 0px 10px;
 }
